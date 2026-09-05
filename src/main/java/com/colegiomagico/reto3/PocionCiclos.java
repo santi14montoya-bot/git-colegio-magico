@@ -6,7 +6,11 @@ package com.colegiomagico.reto3;
 public class PocionCiclos {
 
     public static String preparar(int cantidad) {
-        return ""; // TODO: Cambia esto
+        String Pociones = "";
+        for (int i = 0; i < cantidad; i++) {
+            Pociones = Pociones + "Pocion ";
+            }
+        return Pociones; // TODO: Cambia esto
     }
 
     public static void main(String[] args) {
