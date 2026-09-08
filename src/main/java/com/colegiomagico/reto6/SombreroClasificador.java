@@ -6,7 +6,21 @@ package com.colegiomagico.reto6;
 public class SombreroClasificador {
 
     public static String clasificar(String casa) {
-        return ""; // TODO: Cambia esto
+        switch (casa) {
+            case "Gryffindor":
+                casa="Valentia";
+                break;
+            case "Ravenclaw":
+                casa="Inteligencia";
+                break;
+            case "Muggle":
+                casa="Desconocido";
+                break;
+            default:
+                break;
+        }
+
+        return casa;
     }
 
     public static void main(String[] args) {
